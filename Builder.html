@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skyline Builders | Premium Construction & Real Estate Development Since 2005</title>
+<meta name="description" content="Skyline Builders is a premier construction and real-estate development company delivering residential, commercial and infrastructure projects since 2005. On-time delivery, quality materials, government-approved processes.">
+<meta name="keywords" content="construction company, real estate developer, residential construction, commercial construction, infrastructure development, interior design, renovation, Skyline Builders">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Skyline Builders | Building Trust. Creating Landmarks.">
+<meta property="og:description" content="Premium Residential, Commercial & Infrastructure Projects Since 2005.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "Skyline Builders",
+  "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200",
+  "url": "https://www.skylinebuilders.example",
+  "telephone": "+91-98765-43210",
+  "priceRange": "$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "14th Floor, Skyline Tower, MG Road",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "411001",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 18.5204,
+    "longitude": 73.8567
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:30",
+    "closes": "18:30"
+  },
+  "sameAs": [
+    "https://www.facebook.com/skylinebuilders",
+    "https://www.instagram.com/skylinebuilders",
+    "https://www.linkedin.com/company/skylinebuilders"
+  ],
+  "foundingDate": "2005",
+  "areaServed": "IN"
+}
+</script>
+
+<style>
+/* ===================== RESET & TOKENS ===================== */
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+:root{
+  --navy: #0A1F3D;
+  --navy-deep: #071527;
+  --navy-panel: #0F2A4A;
+  --gold: #C9A227;
+  --gold-light: #E8C766;
+  --white: #FFFFFF;
+  --paper: #F6F7F9;
+  --paper-2: #EFF1F4;
+  --ink: #101826;
+  --ink-soft: #4B5567;
+  --line: rgba(10,31,61,0.10);
+  --shadow-sm: 0 2px 10px rgba(10,31,61,0.06);
+  --shadow-md: 0 10px 30px rgba(10,31,61,0.10);
+  --shadow-lg: 0 24px 60px rgba(10,31,61,0.16);
+  --radius: 14px;
+  --maxw: 1240px;
+  --ease: cubic-bezier(.22,1,.36,1);
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+}
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  color:var(--ink);
+  background:var(--white);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+h1,h2,h3,h4{
+  font-family:'Fraunces', serif;
+  font-weight:600;
+  line-height:1.12;
+  margin:0;
+  color:var(--navy);
+  letter-spacing:-0.01em;
+}
+p{margin:0; color:var(--ink-soft); line-height:1.7;}
+a{text-decoration:none; color:inherit;}
+img{max-width:100%; display:block;}
+button{font-family:inherit; cursor:pointer; border:none; background:none;}
+ul{margin:0; padding:0; list-style:none;}
+.container{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
+section{position:relative;}
+.eyebrow{
+  display:inline-flex; align-items:center; gap:10px;
+  font-size:12.5px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase;
+  color:var(--gold); margin-bottom:14px;
+}
+.eyebrow::before{content:""; width:22px; height:1px; background:var(--gold);}
+.section-head{max-width:680px; margin-bottom:52px;}
+.section-head.center{margin-left:auto; margin-right:auto; text-align:center;}
+.section-head h2{font-size:clamp(28px,4vw,42px);}
+.section-head p{margin-top:16px; font-size:17px;}
+.section-pad{padding:96px 0;}
+@media (max-width:768px){ .section-pad{padding:64px 0;} }
+
+/* Buttons */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:10px;
+  padding:15px 30px; font-weight:600; font-size:14.5px; letter-spacing:0.02em;
+  border-radius:8px; transition:transform .35s var(--ease), box-shadow .35s var(--ease), background .35s var(--ease), color .35s var(--ease);
+  white-space:nowrap;
+}
+.btn-gold{background:var(--gold); color:var(--navy-deep);}
+.btn-gold:hover{background:var(--gold-light); transform:translateY(-2px); box-shadow:0 14px 28px rgba(201,162,39,0.35);}
+.btn-outline{border:1.5px solid rgba(255,255,255,0.5); color:var(--white); background:transparent;}
+.btn-outline:hover{background:rgba(255,255,255,0.12); border-color:var(--white); transform:translateY(-2px);}
+.btn-navy{background:var(--navy); color:var(--white);}
+.btn-navy:hover{background:var(--navy-deep); transform:translateY(-2px); box-shadow:var(--shadow-md);}
+.btn-ghost{border:1.5px solid var(--line); color:var(--navy);}
+.btn-ghost:hover{border-color:var(--gold); color:var(--gold);}
+.btn-sm{padding:10px 18px; font-size:13px;}
+
+/* ===================== NAVBAR ===================== */
+#navbar{
+  position:fixed; top:0; left:0; right:0; z-index:1000;
+  padding:22px 0; transition:all .4s var(--ease);
+  background:transparent;
+}
+#navbar.scrolled{
+  padding:14px 0;
+  background:rgba(10,31,61,0.82);
+  backdrop-filter:blur(14px) saturate(140%);
+  -webkit-backdrop-filter:blur(14px) saturate(140%);
+  box-shadow:0 4px 24px rgba(0,0,0,0.18);
+}
+.nav-inner{display:flex; align-items:center; justify-content:space-between; gap:24px;}
+.logo{display:flex; align-items:center; gap:10px; font-family:'Fraunces',serif; font-weight:600; font-size:21px; color:var(--white); letter-spacing:0.01em;}
+.logo .mark{
+  width:38px; height:38px; border-radius:8px; background:linear-gradient(150deg,var(--gold),var(--gold-light));
+  display:flex; align-items:center; justify-content:center; flex-shrink:0;
+}
+.logo .mark svg{width:20px; height:20px;}
+.nav-links{display:flex; align-items:center; gap:34px;}
+.nav-links a{
+  color:rgba(255,255,255,0.85); font-size:14.5px; font-weight:500; position:relative; padding:4px 0;
+  transition:color .25s;
+}
+.nav-links a::after{
+  content:""; position:absolute; left:0; bottom:0; width:0; height:1.5px; background:var(--gold);
+  transition:width .3s var(--ease);
+}
+.nav-links a:hover{color:var(--white);}
+.nav-links a:hover::after{width:100%;}
+.nav-cta{display:flex; align-items:center; gap:14px;}
+.nav-call{
+  display:flex; align-items:center; gap:8px; color:var(--white); font-size:14px; font-weight:600;
+}
+.burger{display:none; width:26px; height:20px; position:relative; flex-direction:column; justify-content:space-between; z-index:1100;}
+.burger span{display:block; height:2px; width:100%; background:var(--white); border-radius:2px; transition:.3s;}
+.mobile-menu{
+  position:fixed; inset:0; background:var(--navy-deep); z-index:1050; display:flex; flex-direction:column;
+  justify-content:center; align-items:center; gap:30px; transform:translateY(-100%); transition:transform .45s var(--ease);
+}
+.mobile-menu.open{transform:translateY(0);}
+.mobile-menu a{color:var(--white); font-family:'Fraunces',serif; font-size:26px; font-weight:500;}
+.mobile-menu .close-x{position:absolute; top:26px; right:26px; width:30px; height:30px; color:var(--white); font-size:0;}
+
+@media (max-width:920px){
+  .nav-links{display:none;}
+  .nav-call{display:none;}
+  .burger{display:flex;}
+}
+
+/* ===================== HERO ===================== */
+#hero{
+  min-height:100vh; display:flex; align-items:center; position:relative; overflow:hidden;
+  background:linear-gradient(180deg, rgba(7,21,39,0.78) 0%, rgba(7,21,39,0.55) 40%, rgba(7,21,39,0.88) 100%),
+    url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;
+}
+#hero::before{
+  content:""; position:absolute; inset:0; pointer-events:none; opacity:0.35;
+  background-image:
+    linear-gradient(rgba(232,199,102,0.10) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(232,199,102,0.10) 1px, transparent 1px);
+  background-size:64px 64px;
+  mask-image: radial-gradient(circle at 30% 30%, black 0%, transparent 70%);
+}
+.hero-inner{position:relative; z-index:2; padding-top:90px; padding-bottom:60px;}
+.hero-corner{
+  position:absolute; width:46px; height:46px; border-color:var(--gold); opacity:0.9; z-index:3;
+}
+.hero-corner.tl{top:120px; left:24px; border-top:1.5px solid var(--gold); border-left:1.5px solid var(--gold);}
+.hero-corner.br{bottom:40px; right:24px; border-bottom:1.5px solid var(--gold); border-right:1.5px solid var(--gold);}
+@media (max-width:768px){ .hero-corner{display:none;} }
+
+.hero-tag{
+  display:inline-flex; align-items:center; gap:10px; padding:8px 16px; border:1px solid rgba(232,199,102,0.4);
+  border-radius:30px; color:var(--gold-light); font-size:12.5px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase;
+  margin-bottom:28px; background:rgba(232,199,102,0.06);
+}
+.hero-tag .dot{width:6px; height:6px; border-radius:50%; background:var(--gold-light);}
+#hero h1{
+  color:var(--white); font-size:clamp(40px,6.4vw,80px); font-weight:600; max-width:880px; letter-spacing:-0.015em;
+}
+#hero h1 em{color:var(--gold-light); font-style:normal;}
+#hero .sub{
+  color:rgba(255,255,255,0.82); font-size:clamp(16px,1.6vw,19px); max-width:560px; margin-top:24px;
+}
+.hero-ctas{display:flex; gap:16px; margin-top:42px; flex-wrap:wrap;}
+.hero-stats{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:1px; margin-top:80px;
+  background:rgba(255,255,255,0.12); border-radius:12px; overflow:hidden;
+  backdrop-filter:blur(6px);
+}
+.hero-stats .hs{
+  background:rgba(10,31,61,0.35); padding:22px 18px; text-align:left;
+}
+.hero-stats .hs strong{display:block; font-family:'Fraunces',serif; font-size:clamp(22px,3vw,32px); color:var(--gold-light); font-weight:600;}
+.hero-stats .hs span{font-size:12.5px; color:rgba(255,255,255,0.7); letter-spacing:0.04em;}
+@media (max-width:768px){
+  .hero-stats{grid-template-columns:repeat(2,1fr); margin-top:56px;}
+}
+.scroll-cue{
+  position:absolute; bottom:26px; left:50%; transform:translateX(-50%); z-index:3;
+  display:flex; flex-direction:column; align-items:center; gap:8px; color:rgba(255,255,255,0.6); font-size:11px; letter-spacing:0.14em; text-transform:uppercase;
+}
+.scroll-cue .line{width:1px; height:30px; background:linear-gradient(var(--gold-light),transparent); animation:scrollPulse 1.8s infinite;}
+@keyframes scrollPulse{0%{opacity:0.2; transform:scaleY(0.4);} 50%{opacity:1; transform:scaleY(1);} 100%{opacity:0.2; transform:scaleY(0.4);}}
+
+/* ===================== REVEAL ===================== */
+.reveal{opacity:0; transform:translateY(28px); transition:opacity .8s var(--ease), transform .8s var(--ease);}
+.reveal.in{opacity:1; transform:translateY(0);}
+.reveal-stagger > *{transition-delay:calc(var(--i,0) * 90ms);}
+
+/* ===================== OVERVIEW ===================== */
+#overview{background:var(--paper);}
+.overview-grid{display:grid; grid-template-columns:1.1fr 1fr; gap:64px; align-items:start;}
+@media (max-width:920px){ .overview-grid{grid-template-columns:1fr; gap:40px;} }
+.overview-copy p{font-size:16.5px; margin-top:18px;}
+.overview-copy p:first-of-type{margin-top:0;}
+.stat-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:18px;}
+.stat-card{
+  background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:28px 22px;
+  box-shadow:var(--shadow-sm); transition:transform .35s var(--ease), box-shadow .35s var(--ease), border-color .35s;
+}
+.stat-card:hover{transform:translateY(-6px); box-shadow:var(--shadow-md); border-color:rgba(201,162,39,0.4);}
+.stat-icon{
+  width:42px; height:42px; border-radius:10px; background:rgba(10,31,61,0.06); display:flex; align-items:center; justify-content:center; margin-bottom:16px;
+}
+.stat-icon svg{width:22px; height:22px; stroke:var(--navy);}
+.stat-card strong{
+  display:block; font-family:'Fraunces',serif; font-size:34px; color:var(--navy); font-weight:600;
+}
+.stat-card span{font-size:13px; color:var(--ink-soft); font-weight:500;}
+
+/* ===================== SERVICES ===================== */
+.services-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+@media (max-width:980px){ .services-grid{grid-template-columns:repeat(2,1fr);} }
+@media (max-width:620px){ .services-grid{grid-template-columns:1fr;} }
+.service-card{
+  background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:34px 28px;
+  transition:transform .4s var(--ease), box-shadow .4s var(--ease), border-color .4s;
+  position:relative; overflow:hidden;
+}
+.service-card::before{
+  content:""; position:absolute; top:0; left:0; width:100%; height:3px; background:linear-gradient(90deg,var(--gold),var(--gold-light));
+  transform:scaleX(0); transform-origin:left; transition:transform .45s var(--ease);
+}
+.service-card:hover{transform:translateY(-8px); box-shadow:var(--shadow-lg); border-color:transparent;}
+.service-card:hover::before{transform:scaleX(1);}
+.service-icon{
+  width:54px; height:54px; border-radius:12px; background:var(--navy); display:flex; align-items:center; justify-content:center; margin-bottom:22px;
+  transition:background .4s;
+}
+.service-card:hover .service-icon{background:var(--gold);}
+.service-icon svg{width:26px; height:26px; stroke:var(--gold-light); transition:stroke .4s;}
+.service-card:hover .service-icon svg{stroke:var(--navy-deep);}
+.service-card h3{font-size:20px; margin-bottom:10px;}
+.service-card p{font-size:15px;}
+
+/* ===================== PROJECTS ===================== */
+.projects-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:26px;}
+@media (max-width:980px){ .projects-grid{grid-template-columns:repeat(2,1fr);} }
+@media (max-width:680px){ .projects-grid{grid-template-columns:1fr;} }
+.project-card{
+  border-radius:var(--radius); overflow:hidden; background:var(--white); border:1px solid var(--line);
+  box-shadow:var(--shadow-sm); transition:transform .4s var(--ease), box-shadow .4s var(--ease);
+}
+.project-card:hover{transform:translateY(-8px); box-shadow:var(--shadow-lg);}
+.project-img{position:relative; height:230px; overflow:hidden;}
+.project-img img{width:100%; height:100%; object-fit:cover; transition:transform .7s var(--ease);}
+.project-card:hover .project-img img{transform:scale(1.08);}
+.status-pill{
+  position:absolute; top:16px; left:16px; padding:6px 14px; border-radius:30px; font-size:11.5px; font-weight:700; letter-spacing:0.04em;
+  text-transform:uppercase; z-index:2;
+}
+.status-pill.completed{background:rgba(34,142,84,0.92); color:#fff;}
+.status-pill.ongoing{background:rgba(201,162,39,0.95); color:var(--navy-deep);}
+.project-body{padding:24px;}
+.project-loc{display:flex; align-items:center; gap:6px; font-size:13px; color:var(--ink-soft); margin-bottom:8px;}
+.project-loc svg{width:14px; height:14px; stroke:var(--gold);}
+.project-body h3{font-size:19px; margin-bottom:10px;}
+.project-body p{font-size:14.5px; margin-bottom:18px;}
+.project-foot{display:flex; align-items:center; justify-content:space-between; border-top:1px dashed var(--line); padding-top:16px;}
+.project-value{font-family:'Fraunces',serif; font-weight:600; color:var(--navy); font-size:16px;}
+.project-value span{display:block; font-family:'Inter',sans-serif; font-weight:500; font-size:11px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:0.05em;}
+.view-link{display:inline-flex; align-items:center; gap:6px; font-size:13.5px; font-weight:700; color:var(--navy);}
+.view-link svg{width:14px; height:14px; transition:transform .3s;}
+.project-card:hover .view-link svg{transform:translateX(4px);}
+
+/* ===================== WHY CHOOSE US ===================== */
+#why{background:var(--navy); position:relative; overflow:hidden;}
+#why::before{
+  content:""; position:absolute; inset:0; opacity:0.06;
+  background-image:linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px);
+  background-size:48px 48px;
+}
+#why .section-head h2, #why .section-head p{color:rgba(255,255,255,0.92);}
+#why .section-head p{color:rgba(255,255,255,0.65);}
+#why .eyebrow{color:var(--gold-light);}
+.why-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:rgba(255,255,255,0.08); border-radius:var(--radius); overflow:hidden; position:relative; z-index:1;}
+@media (max-width:900px){ .why-grid{grid-template-columns:repeat(2,1fr);} }
+@media (max-width:560px){ .why-grid{grid-template-columns:1fr;} }
+.why-card{
+  background:var(--navy-deep); padding:36px 30px; transition:background .35s;
+}
+.why-card:hover{background:#0c2240;}
+.why-icon{width:46px; height:46px; border-radius:50%; border:1.5px solid var(--gold); display:flex; align-items:center; justify-content:center; margin-bottom:20px;}
+.why-icon svg{width:22px; height:22px; stroke:var(--gold-light);}
+.why-card h3{color:var(--white); font-size:18px; margin-bottom:8px;}
+.why-card p{color:rgba(255,255,255,0.62); font-size:14.5px;}
+
+/* ===================== GALLERY ===================== */
+.gallery-grid{
+  display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:140px; gap:14px;
+}
+@media (max-width:900px){ .gallery-grid{grid-template-columns:repeat(3,1fr); grid-auto-rows:120px;} }
+@media (max-width:600px){ .gallery-grid{grid-template-columns:repeat(2,1fr); grid-auto-rows:110px;} }
+.gallery-item{position:relative; overflow:hidden; border-radius:10px; cursor:pointer;}
+.gallery-item img{width:100%; height:100%; object-fit:cover; transition:transform .6s var(--ease);}
+.gallery-item:hover img{transform:scale(1.12);}
+.gallery-item .ov{
+  position:absolute; inset:0; background:linear-gradient(180deg, transparent 40%, rgba(7,21,39,0.85) 100%);
+  opacity:0; transition:opacity .35s; display:flex; align-items:flex-end; padding:14px;
+}
+.gallery-item:hover .ov{opacity:1;}
+.gallery-item .ov span{color:#fff; font-size:13px; font-weight:600;}
+.gallery-item.g-tall{grid-row:span 2;}
+.gallery-item.g-wide{grid-column:span 2;}
+.gallery-filters{display:flex; gap:10px; margin-bottom:32px; flex-wrap:wrap;}
+.gfilter{padding:9px 18px; border-radius:30px; font-size:13.5px; font-weight:600; border:1.5px solid var(--line); color:var(--ink-soft); transition:.3s;}
+.gfilter.active, .gfilter:hover{border-color:var(--gold); color:var(--navy); background:rgba(201,162,39,0.08);}
+
+/* Lightbox */
+#lightbox{
+  position:fixed; inset:0; background:rgba(7,15,27,0.94); z-index:2000; display:none; align-items:center; justify-content:center;
+  padding:30px;
+}
+#lightbox.open{display:flex;}
+#lightbox img{max-width:90vw; max-height:84vh; border-radius:8px; box-shadow:0 20px 60px rgba(0,0,0,0.5);}
+#lightbox .lb-close, #lightbox .lb-nav{
+  position:absolute; color:#fff; width:46px; height:46px; border:1.5px solid rgba(255,255,255,0.3); border-radius:50%;
+  display:flex; align-items:center; justify-content:center; transition:.3s; background:rgba(255,255,255,0.05);
+}
+#lightbox .lb-close:hover, #lightbox .lb-nav:hover{background:var(--gold); border-color:var(--gold); color:var(--navy-deep);}
+#lightbox .lb-close{top:30px; right:30px;}
+#lightbox .lb-prev{left:30px; top:50%; transform:translateY(-50%);}
+#lightbox .lb-next{right:30px; top:50%; transform:translateY(-50%);}
+@media (max-width:700px){ #lightbox .lb-prev, #lightbox .lb-next{display:none;} }
+
+/* ===================== PROCESS TIMELINE ===================== */
+#process{background:var(--paper);}
+.process-track{position:relative; padding-top:20px;}
+.process-line{position:absolute; top:46px; left:0; right:0; height:1px; background:repeating-linear-gradient(90deg, var(--line) 0 8px, transparent 8px 16px);}
+.process-grid{display:grid; grid-template-columns:repeat(6,1fr); gap:18px; position:relative;}
+@media (max-width:980px){ .process-grid{grid-template-columns:repeat(3,1fr);} .process-line{display:none;} }
+@media (max-width:600px){ .process-grid{grid-template-columns:1fr;} }
+.process-step{text-align:left;}
+.proc-num{
+  width:44px; height:44px; border:1.5px solid var(--gold); color:var(--gold); background:var(--white);
+  display:flex; align-items:center; justify-content:center; font-family:'Fraunces',serif; font-weight:600; font-size:16px;
+  border-radius:50%; margin-bottom:18px; position:relative; z-index:1;
+}
+.process-step h3{font-size:16.5px; margin-bottom:8px;}
+.process-step p{font-size:13.5px;}
+
+/* ===================== TEAM ===================== */
+.team-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
+@media (max-width:900px){ .team-grid{grid-template-columns:repeat(2,1fr);} }
+@media (max-width:560px){ .team-grid{grid-template-columns:1fr; max-width:320px; margin:0 auto;} }
+.team-card{text-align:center;}
+.team-photo{
+  position:relative; border-radius:var(--radius); overflow:hidden; aspect-ratio:1/1.05; margin-bottom:18px;
+}
+.team-photo img{width:100%; height:100%; object-fit:cover; transition:transform .5s var(--ease);}
+.team-card:hover .team-photo img{transform:scale(1.06);}
+.team-photo::after{content:""; position:absolute; inset:0; background:linear-gradient(180deg, transparent 60%, rgba(10,31,61,0.5)); }
+.team-social{position:absolute; bottom:14px; left:0; right:0; display:flex; justify-content:center; gap:10px; z-index:2; opacity:0; transition:opacity .3s, transform .3s; transform:translateY(8px);}
+.team-card:hover .team-social{opacity:1; transform:translateY(0);}
+.team-social a{width:32px; height:32px; border-radius:50%; background:rgba(255,255,255,0.92); display:flex; align-items:center; justify-content:center;}
+.team-social svg{width:15px; height:15px; stroke:var(--navy);}
+.team-card h3{font-size:18px; margin-bottom:4px;}
+.team-card .role{color:var(--gold); font-size:13px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;}
+
+/* ===================== TESTIMONIALS ===================== */
+#testimonials{background:var(--navy-deep); position:relative; overflow:hidden;}
+#testimonials .section-head h2, #testimonials .section-head p{color:#fff;}
+#testimonials .section-head p{color:rgba(255,255,255,0.6);}
+#testimonials .eyebrow{color:var(--gold-light);}
+.t-carousel{position:relative; max-width:760px; margin:0 auto;}
+.t-track{overflow:hidden;}
+.t-slides{display:flex; transition:transform .6s var(--ease);}
+.t-slide{flex:0 0 100%; padding:0 6px;}
+.t-card{
+  background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:var(--radius);
+  padding:44px 40px; text-align:center; backdrop-filter:blur(6px);
+}
+.t-stars{display:flex; justify-content:center; gap:4px; margin-bottom:22px;}
+.t-stars svg{width:18px; height:18px; fill:var(--gold-light); stroke:var(--gold-light);}
+.t-card p.quote{color:rgba(255,255,255,0.85); font-size:17px; font-style:italic; line-height:1.8; font-family:'Fraunces',serif; font-weight:400;}
+.t-person{display:flex; align-items:center; justify-content:center; gap:14px; margin-top:28px;}
+.t-person img{width:52px; height:52px; border-radius:50%; object-fit:cover; border:2px solid var(--gold);}
+.t-person .info{text-align:left;}
+.t-person strong{display:block; color:#fff; font-size:14.5px;}
+.t-person span{color:rgba(255,255,255,0.5); font-size:12.5px;}
+.t-controls{display:flex; justify-content:center; gap:14px; margin-top:36px;}
+.t-controls button{
+  width:42px; height:42px; border-radius:50%; border:1.5px solid rgba(255,255,255,0.25); color:#fff;
+  display:flex; align-items:center; justify-content:center; transition:.3s;
+}
+.t-controls button:hover{background:var(--gold); border-color:var(--gold); color:var(--navy-deep);}
+.t-controls button svg{width:16px; height:16px;}
+
+/* ===================== CERTIFICATIONS ===================== */
+.cert-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:20px;}
+@media (max-width:900px){ .cert-grid{grid-template-columns:repeat(2,1fr);} }
+@media (max-width:560px){ .cert-grid{grid-template-columns:1fr;} }
+.cert-card{
+  border:1px solid var(--line); border-radius:var(--radius); padding:30px 24px; text-align:center;
+  transition:transform .35s var(--ease), box-shadow .35s;
+}
+.cert-card:hover{transform:translateY(-6px); box-shadow:var(--shadow-md);}
+.cert-icon{width:56px; height:56px; border-radius:50%; background:var(--paper); display:flex; align-items:center; justify-content:center; margin:0 auto 16px;}
+.cert-icon svg{width:26px; height:26px; stroke:var(--gold);}
+.cert-card h3{font-size:15.5px; margin-bottom:6px;}
+.cert-card p{font-size:13px;}
+
+/* ===================== FAQ ===================== */
+#faq{background:var(--paper); max-width:840px !important;}
+.faq-item{border-bottom:1px solid var(--line);}
+.faq-q{
+  width:100%; display:flex; align-items:center; justify-content:space-between; padding:22px 4px; text-align:left;
+  font-family:'Fraunces',serif; font-size:17px; color:var(--navy); font-weight:500;
+}
+.faq-q .plus{width:22px; height:22px; flex-shrink:0; position:relative; margin-left:20px;}
+.faq-q .plus::before, .faq-q .plus::after{content:""; position:absolute; background:var(--gold); transition:.35s;}
+.faq-q .plus::before{width:100%; height:2px; top:50%; left:0; transform:translateY(-50%);}
+.faq-q .plus::after{height:100%; width:2px; left:50%; top:0; transform:translateX(-50%);}
+.faq-item.open .plus::after{transform:translateX(-50%) rotate(90deg); opacity:0;}
+.faq-a{max-height:0; overflow:hidden; transition:max-height .4s var(--ease);}
+.faq-a p{padding:0 4px 22px; font-size:15px;}
+
+/* ===================== CONTACT ===================== */
+#contact{background:var(--white);}
+.contact-grid{display:grid; grid-template-columns:1fr 1.1fr; gap:50px;}
+@media (max-width:920px){ .contact-grid{grid-template-columns:1fr;} }
+.contact-info-card{
+  background:var(--navy); border-radius:var(--radius); padding:40px 34px; color:#fff;
+}
+.contact-info-card h3{color:#fff; font-size:24px; margin-bottom:8px;}
+.contact-info-card > p{color:rgba(255,255,255,0.65); margin-bottom:30px; font-size:14.5px;}
+.cinfo-row{display:flex; gap:16px; padding:18px 0; border-top:1px solid rgba(255,255,255,0.12);}
+.cinfo-row:first-of-type{border-top:none;}
+.cinfo-row .ic{width:40px; height:40px; border-radius:9px; background:rgba(201,162,39,0.18); display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+.cinfo-row .ic svg{width:18px; height:18px; stroke:var(--gold-light);}
+.cinfo-row strong{display:block; font-size:13px; color:rgba(255,255,255,0.55); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:4px;}
+.cinfo-row span, .cinfo-row a{font-size:15px; color:#fff; font-weight:500;}
+.map-wrap{margin-top:26px; border-radius:10px; overflow:hidden; border:1px solid rgba(255,255,255,0.15);}
+.map-wrap iframe{width:100%; height:200px; border:0; filter:grayscale(0.15) contrast(1.05);}
+
+.contact-form{background:var(--paper); border-radius:var(--radius); padding:40px 34px; border:1px solid var(--line);}
+.form-row{display:grid; grid-template-columns:1fr 1fr; gap:18px;}
+@media (max-width:560px){ .form-row{grid-template-columns:1fr;} }
+.form-group{margin-bottom:20px;}
+.form-group label{display:block; font-size:13px; font-weight:600; color:var(--navy); margin-bottom:8px;}
+.form-group input, .form-group select, .form-group textarea{
+  width:100%; padding:13px 16px; border:1.5px solid var(--line); border-radius:8px; font-family:inherit; font-size:14.5px;
+  background:#fff; transition:border-color .25s, box-shadow .25s; color:var(--ink);
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus{
+  outline:none; border-color:var(--gold); box-shadow:0 0 0 3px rgba(201,162,39,0.15);
+}
+.form-group textarea{resize:vertical; min-height:110px;}
+.form-success{display:none; background:rgba(34,142,84,0.1); color:#1d7a47; padding:14px 18px; border-radius:8px; font-size:14px; font-weight:600; margin-top:6px;}
+.form-success.show{display:block;}
+
+/* ===================== FOOTER ===================== */
+footer{background:var(--navy-deep); color:rgba(255,255,255,0.65); padding-top:80px;}
+.footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr 1.2fr; gap:40px; padding-bottom:50px; border-bottom:1px solid rgba(255,255,255,0.08);}
+@media (max-width:900px){ .footer-grid{grid-template-columns:repeat(2,1fr);} }
+@media (max-width:560px){ .footer-grid{grid-template-columns:1fr;} }
+.footer-brand .logo{color:#fff; margin-bottom:18px;}
+.footer-brand p{font-size:14px; max-width:280px; margin-bottom:22px;}
+.foot-social{display:flex; gap:10px;}
+.foot-social a{width:36px; height:36px; border-radius:50%; border:1px solid rgba(255,255,255,0.15); display:flex; align-items:center; justify-content:center; transition:.3s;}
+.foot-social a:hover{background:var(--gold); border-color:var(--gold);}
+.foot-social svg{width:16px; height:16px; stroke:#fff;}
+.foot-social a:hover svg{stroke:var(--navy-deep);}
+footer h4{color:#fff; font-family:'Inter',sans-serif; font-size:14px; letter-spacing:0.04em; text-transform:uppercase; margin-bottom:20px; font-weight:700;}
+footer ul li{margin-bottom:12px; font-size:14.5px;}
+footer ul li a{transition:color .25s, padding-left .25s;}
+footer ul li a:hover{color:var(--gold-light); padding-left:4px;}
+.foot-contact li{display:flex; gap:10px; align-items:flex-start; font-size:14px;}
+.foot-contact svg{width:15px; height:15px; stroke:var(--gold); margin-top:2px; flex-shrink:0;}
+.foot-bottom{display:flex; justify-content:space-between; align-items:center; padding:26px 0; font-size:13px; flex-wrap:wrap; gap:10px;}
+.foot-bottom a{color:rgba(255,255,255,0.5);}
+.foot-bottom a:hover{color:var(--gold-light);}
+
+/* ===================== FLOATING BUTTONS ===================== */
+.float-btns{position:fixed; bottom:24px; right:24px; z-index:900; display:flex; flex-direction:column; gap:14px; align-items:flex-end;}
+.fab{
+  width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+  box-shadow:0 10px 28px rgba(0,0,0,0.28); transition:transform .3s var(--ease);
+}
+.fab:hover{transform:scale(1.08);}
+.fab-whatsapp{background:#25D366;}
+.fab-whatsapp svg{width:28px; height:28px; fill:#fff;}
+.fab-call{background:var(--gold); display:none;}
+.fab-call svg{width:24px; height:24px; stroke:var(--navy-deep);}
+@media (max-width:768px){ .fab-call{display:flex;} }
+.fab-pulse{position:absolute; inset:0; border-radius:50%; background:#25D366; opacity:0.5; animation:pulse 2.4s infinite;}
+@keyframes pulse{0%{transform:scale(1); opacity:0.5;} 100%{transform:scale(1.7); opacity:0;}}
+
+/* utility */
+.text-center{text-align:center;}
+.mt-40{margin-top:40px;}
+::selection{background:var(--gold-light); color:var(--navy-deep);}
+.skip-link{position:absolute; left:-999px;}
+.skip-link:focus{left:10px; top:10px; background:#fff; padding:8px 14px; z-index:3000; border-radius:6px;}
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible{outline:2px solid var(--gold); outline-offset:2px;}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ===================== NAVBAR ===================== -->
+<header id="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="logo">
+      <span class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#071527" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 11h.01M15 11h.01M9 15h.01M15 15h.01"/></svg>
+      </span>
+      Skyline Builders
+    </a>
+    <nav class="nav-links">
+      <a href="#overview">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#team">Team</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+919876543210" class="nav-call">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E8C766" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 98765 43210
+      </a>
+      <a href="#contact" class="btn btn-gold btn-sm">Get a Quote</a>
+      <button class="burger" id="burgerBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-x" id="closeMenu">Close</button>
+  <a href="#overview">About</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#process">Process</a>
+  <a href="#team">Team</a>
+  <a href="#testimonials">Reviews</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-gold" style="margin-top:10px;">Get a Quote</a>
+</div>
+
+<main id="main">
+
+<!-- ===================== HERO ===================== -->
+<section id="hero">
+  <span class="hero-corner tl"></span>
+  <span class="hero-corner br"></span>
+  <div class="container hero-inner">
+    <div class="hero-tag"><span class="dot"></span> Since 2005 · ISO 9001:2015 Certified</div>
+    <h1>Building Trust.<br>Creating <em>Landmarks.</em></h1>
+    <p class="sub">Premium Residential, Commercial & Infrastructure Projects Since 2005. Engineering excellence, delivered on time, every time.</p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn btn-gold">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Us</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hs"><strong data-count="20">0</strong><span>Years of Excellence</span></div>
+      <div class="hs"><strong data-count="240">0</strong><span>Projects Completed</span></div>
+      <div class="hs"><strong data-count="1800">0</strong><span>Happy Clients</span></div>
+      <div class="hs"><strong data-count="12" data-suffix="M+">0</strong><span>Sq.Ft. Delivered</span></div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Scroll</span><span class="line"></span></div>
+</section>
+
+<!-- ===================== OVERVIEW ===================== -->
+<section id="overview" class="section-pad">
+  <div class="container overview-grid">
+    <div class="overview-copy reveal">
+      <div class="eyebrow">Who We Are</div>
+      <h2 style="font-size:clamp(28px,4vw,40px); margin-bottom:18px;">Two decades of building structures that stand the test of time</h2>
+      <p>Skyline Builders was founded in 2005 with a simple promise: build it right, deliver it on time, and never compromise on safety or quality. What began as a small residential contracting firm has grown into one of the region's most trusted names in construction and real-estate development.</p>
+      <p>Today, our multidisciplinary teams of engineers, architects and project managers handle everything from luxury residential towers to large-scale infrastructure works — backed by transparent processes and government-approved compliance at every stage.</p>
+      <a href="#contact" class="btn btn-navy mt-40">Schedule a Consultation</a>
+    </div>
+    <div class="stat-grid reveal reveal-stagger">
+      <div class="stat-card" style="--i:0">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg></div>
+        <strong data-count="20">0</strong><span>Years of Experience</span>
+      </div>
+      <div class="stat-card" style="--i:1">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg></div>
+        <strong data-count="240" data-suffix="+">0</strong><span>Completed Projects</span>
+      </div>
+      <div class="stat-card" style="--i:2">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <strong data-count="1800" data-suffix="+">0</strong><span>Happy Clients</span>
+      </div>
+      <div class="stat-card" style="--i:3">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M3 3h18v18H3zM3 9h18M9 21V9"/></svg></div>
+        <strong data-count="12" data-suffix="M+">0</strong><span>Sq.Ft. Construction Area</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services" class="section-pad">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">What We Do</div>
+      <h2>Comprehensive construction & development services</h2>
+      <p>From the first sketch to the final handover, our integrated services cover every stage of your project lifecycle.</p>
+    </div>
+    <div class="services-grid reveal reveal-stagger">
+      <div class="service-card" style="--i:0">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M3 21h18M5 21V11l7-7 7 7v10M9 21v-6h6v6"/></svg></div>
+        <h3>Residential Construction</h3>
+        <p>Custom homes, villas and apartment complexes built to the highest standards of comfort, safety and design.</p>
+      </div>
+      <div class="service-card" style="--i:1">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M3 21h18M6 21V8l5-4 5 4v13M9 21v-5h2m2 0h2v5"/></svg></div>
+        <h3>Commercial Construction</h3>
+        <p>Office towers, retail spaces and mixed-use developments engineered for efficiency and long-term value.</p>
+      </div>
+      <div class="service-card" style="--i:2">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M2 12h20M5 12V7h4v5M15 12V7h4v5M9 12v9h6v-9"/></svg></div>
+        <h3>Infrastructure Development</h3>
+        <p>Roads, bridges, utilities and public works delivered with rigorous engineering and safety compliance.</p>
+      </div>
+      <div class="service-card" style="--i:3">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M3 3h18v18H3zM3 9h18M9 21V9"/></svg></div>
+        <h3>Interior Design</h3>
+        <p>Bespoke interior planning and execution that turns finished structures into elegant, livable spaces.</p>
+      </div>
+      <div class="service-card" style="--i:4">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.77z"/></svg></div>
+        <h3>Renovation & Redevelopment</h3>
+        <p>Breathing new life into ageing structures with structural upgrades, modernisation and adaptive reuse.</p>
+      </div>
+      <div class="service-card" style="--i:5">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+        <h3>Project Management</h3>
+        <p>End-to-end oversight — budgeting, scheduling and quality control — keeping every project on track.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FEATURED PROJECTS ===================== -->
+<section id="projects" class="section-pad" style="background:var(--paper);">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">Our Portfolio</div>
+      <h2>Featured projects across the region</h2>
+      <p>A selection of landmark developments that showcase our range — from residential towers to civic infrastructure.</p>
+    </div>
+    <div class="projects-grid reveal reveal-stagger">
+
+      <div class="project-card" style="--i:0">
+        <div class="project-img">
+          <span class="status-pill completed">Completed</span>
+          <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=900&auto=format&fit=crop" alt="Horizon Residency luxury apartment tower" loading="lazy">
+        </div>
+        <div class="project-body">
+          <div class="project-loc"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Baner, Pune</div>
+          <h3>Horizon Residency</h3>
+          <p>A 28-storey luxury residential tower featuring 312 premium apartments with skyline views.</p>
+          <div class="project-foot">
+            <div class="project-value">₹185 Cr<span>Project Value</span></div>
+            <a href="#contact" class="view-link">View Details <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" style="--i:1">
+        <div class="project-img">
+          <span class="status-pill ongoing">Ongoing</span>
+          <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=900&auto=format&fit=crop" alt="Meridian Business Park commercial complex" loading="lazy">
+        </div>
+        <div class="project-body">
+          <div class="project-loc"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Hinjawadi, Pune</div>
+          <h3>Meridian Business Park</h3>
+          <p>A Grade-A commercial IT park spanning 4 towers with LEED-certified sustainable design.</p>
+          <div class="project-foot">
+            <div class="project-value">₹420 Cr<span>Project Value</span></div>
+            <a href="#contact" class="view-link">View Details <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" style="--i:2">
+        <div class="project-img">
+          <span class="status-pill completed">Completed</span>
+          <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=900&auto=format&fit=crop" alt="Riverside Bridge infrastructure project" loading="lazy">
+        </div>
+        <div class="project-body">
+          <div class="project-loc"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Mula-Mutha, Pune</div>
+          <h3>Riverside Connect Bridge</h3>
+          <p>A 1.2km cable-stayed bridge easing city congestion, built with seismic-grade engineering.</p>
+          <div class="project-foot">
+            <div class="project-value">₹96 Cr<span>Project Value</span></div>
+            <a href="#contact" class="view-link">View Details <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" style="--i:3">
+        <div class="project-img">
+          <span class="status-pill completed">Completed</span>
+          <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=900&auto=format&fit=crop" alt="Greenview Villas gated community" loading="lazy">
+        </div>
+        <div class="project-body">
+          <div class="project-loc"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Wagholi, Pune</div>
+          <h3>Greenview Villas</h3>
+          <p>A 64-villa gated community designed around landscaped courtyards and rainwater harvesting.</p>
+          <div class="project-foot">
+            <div class="project-value">₹74 Cr<span>Project Value</span></div>
+            <a href="#contact" class="view-link">View Details <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" style="--i:4">
+        <div class="project-img">
+          <span class="status-pill ongoing">Ongoing</span>
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=900&auto=format&fit=crop" alt="Civic Square mixed-use redevelopment" loading="lazy">
+        </div>
+        <div class="project-body">
+          <div class="project-loc"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Kothrud, Pune</div>
+          <h3>Civic Square Redevelopment</h3>
+          <p>Adaptive reuse of a heritage market into a mixed-use retail and cultural plaza.</p>
+          <div class="project-foot">
+            <div class="project-value">₹58 Cr<span>Project Value</span></div>
+            <a href="#contact" class="view-link">View Details <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" style="--i:5">
+        <div class="project-img">
+          <span class="status-pill completed">Completed</span>
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=900&auto=format&fit=crop" alt="Summit Towers office complex" loading="lazy">
+        </div>
+        <div class="project-body">
+          <div class="project-loc"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Magarpatta, Pune</div>
+          <h3>Summit Towers</h3>
+          <p>Twin 32-storey Grade-A office towers with smart building automation and EV infrastructure.</p>
+          <div class="project-foot">
+            <div class="project-value">₹310 Cr<span>Project Value</span></div>
+            <a href="#contact" class="view-link">View Details <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="text-center mt-40">
+      <a href="#contact" class="btn btn-ghost">View All Projects</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY CHOOSE US ===================== -->
+<section id="why" class="section-pad">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">Why Choose Us</div>
+      <h2>Built on standards you can verify</h2>
+      <p>Every project is governed by the same six commitments — no exceptions.</p>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3>On-Time Delivery</h3>
+        <p>Milestone-driven scheduling and dedicated site supervision keep every phase on the calendar.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg></div>
+        <h3>Quality Materials</h3>
+        <p>We source only certified-grade materials, vetted through a strict multi-stage quality chain.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Experienced Team</h3>
+        <p>A 200+ strong team of licensed engineers, architects and skilled tradespeople.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>Transparent Pricing</h3>
+        <p>Itemised quotations and milestone billing — no hidden costs, ever, in any contract.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z"/></svg></div>
+        <h3>Safety Standards</h3>
+        <p>Zero-compromise site safety protocols audited monthly by independent safety officers.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M9 12l2 2 4-4M21 12c0 5-3.5 9-9 10-5.5-1-9-5-9-10V6l9-4 9 4v6z"/></svg></div>
+        <h3>Govt. Approved Process</h3>
+        <p>Every project follows fully documented, government-compliant approval workflows.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section id="gallery" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Site Gallery</div>
+      <h2>From groundbreaking to handover</h2>
+      <p>A visual record of our active sites and finished landmarks.</p>
+    </div>
+    <div class="gallery-filters reveal">
+      <button class="gfilter active" data-filter="all">All</button>
+      <button class="gfilter" data-filter="site">Construction Site</button>
+      <button class="gfilter" data-filter="before">Before</button>
+      <button class="gfilter" data-filter="after">After</button>
+    </div>
+    <div class="gallery-grid reveal" id="galleryGrid">
+      <div class="gallery-item g-tall" data-cat="site"><img loading="lazy" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=600&auto=format&fit=crop" alt="Crane on active construction site"><div class="ov"><span>Steel Frame Erection</span></div></div>
+      <div class="gallery-item" data-cat="before"><img loading="lazy" src="https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?q=80&w=600&auto=format&fit=crop" alt="Vacant site before construction"><div class="ov"><span>Before — Site Clearance</span></div></div>
+      <div class="gallery-item" data-cat="after"><img loading="lazy" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop" alt="Completed building after construction"><div class="ov"><span>After — Completed Tower</span></div></div>
+      <div class="gallery-item g-wide" data-cat="site"><img loading="lazy" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=900&auto=format&fit=crop" alt="Workers at construction site"><div class="ov"><span>On-site Engineering Team</span></div></div>
+      <div class="gallery-item" data-cat="site"><img loading="lazy" src="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?q=80&w=600&auto=format&fit=crop" alt="Concrete pouring at site"><div class="ov"><span>Foundation Works</span></div></div>
+      <div class="gallery-item g-tall" data-cat="after"><img loading="lazy" src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=600&auto=format&fit=crop" alt="Finished residential complex"><div class="ov"><span>After — Residency Complex</span></div></div>
+      <div class="gallery-item" data-cat="before"><img loading="lazy" src="https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=600&auto=format&fit=crop" alt="Empty plot before development"><div class="ov"><span>Before — Empty Plot</span></div></div>
+      <div class="gallery-item" data-cat="site"><img loading="lazy" src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=600&auto=format&fit=crop" alt="Architectural blueprint review on site"><div class="ov"><span>Blueprint Review</span></div></div>
+    </div>
+  </div>
+</section>
+
+<div id="lightbox">
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+</div>
+
+<!-- ===================== PROCESS ===================== -->
+<section id="process" class="section-pad">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">Our Process</div>
+      <h2>Six structured stages, one accountable team</h2>
+      <p>A disciplined sequence that keeps quality, cost and timeline aligned from day one.</p>
+    </div>
+    <div class="process-track reveal">
+      <div class="process-line"></div>
+      <div class="process-grid">
+        <div class="process-step"><div class="proc-num">01</div><h3>Consultation</h3><p>Understanding your vision, budget and site requirements.</p></div>
+        <div class="process-step"><div class="proc-num">02</div><h3>Planning</h3><p>Feasibility study, approvals mapping and resource scheduling.</p></div>
+        <div class="process-step"><div class="proc-num">03</div><h3>Design</h3><p>Architectural and structural drawings finalised with you.</p></div>
+        <div class="process-step"><div class="proc-num">04</div><h3>Construction</h3><p>Execution under continuous engineering supervision.</p></div>
+        <div class="process-step"><div class="proc-num">05</div><h3>Quality Inspection</h3><p>Multi-point audits against ISO and safety benchmarks.</p></div>
+        <div class="process-step"><div class="proc-num">06</div><h3>Project Handover</h3><p>Documentation, walkthrough and post-handover support.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEAM ===================== -->
+<section id="team" class="section-pad" style="background:var(--paper);">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">Leadership</div>
+      <h2>The team behind every landmark</h2>
+      <p>Decades of combined expertise in engineering, design and project delivery.</p>
+    </div>
+    <div class="team-grid reveal reveal-stagger">
+      <div class="team-card" style="--i:0">
+        <div class="team-photo">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=500&auto=format&fit=crop" alt="Portrait of Founder">
+          <div class="team-social">
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          </div>
+        </div>
+        <h3>Rajiv Mehta</h3>
+        <div class="role">Founder</div>
+      </div>
+      <div class="team-card" style="--i:1">
+        <div class="team-photo">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=500&auto=format&fit=crop" alt="Portrait of Managing Director">
+          <div class="team-social">
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          </div>
+        </div>
+        <h3>Anjali Sharma</h3>
+        <div class="role">Managing Director</div>
+      </div>
+      <div class="team-card" style="--i:2">
+        <div class="team-photo">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=500&auto=format&fit=crop" alt="Portrait of Chief Engineer">
+          <div class="team-social">
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          </div>
+        </div>
+        <h3>Vikram Desai</h3>
+        <div class="role">Chief Engineer</div>
+      </div>
+      <div class="team-card" style="--i:3">
+        <div class="team-photo">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=500&auto=format&fit=crop" alt="Portrait of Project Manager">
+          <div class="team-social">
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          </div>
+        </div>
+        <h3>Priya Nair</h3>
+        <div class="role">Project Manager</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section id="testimonials" class="section-pad">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">Client Reviews</div>
+      <h2>Trusted by homeowners and enterprises alike</h2>
+    </div>
+    <div class="t-carousel reveal">
+      <div class="t-track">
+        <div class="t-slides" id="tSlides">
+          <div class="t-slide">
+            <div class="t-card">
+              <div class="t-stars">★★★★★</div>
+              <p class="quote">"Skyline Builders delivered our villa exactly on schedule, with a build quality that exceeded our expectations. Their site supervisors were always reachable."</p>
+              <div class="t-person">
+                <img loading="lazy" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Client photo">
+                <div class="info"><strong>Sunita Rao</strong><span>Homeowner, Greenview Villas</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="t-slide">
+            <div class="t-card">
+              <div class="t-stars">★★★★★</div>
+              <p class="quote">"We've worked with several contractors over the years — none matched Skyline's transparency in billing and their commitment to deadlines on our office park."</p>
+              <div class="t-person">
+                <img loading="lazy" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop" alt="Client photo">
+                <div class="info"><strong>Arjun Kapoor</strong><span>Director, Meridian Business Park</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="t-slide">
+            <div class="t-card">
+              <div class="t-stars">★★★★★</div>
+              <p class="quote">"From design to handover, the entire process felt structured and professional. Quality inspections were thorough — exactly what you want for a long-term investment."</p>
+              <div class="t-person">
+                <img loading="lazy" src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=200&auto=format&fit=crop" alt="Client photo">
+                <div class="info"><strong>Meera Joshi</strong><span>Investor, Horizon Residency</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="t-controls">
+        <button id="tPrev" aria-label="Previous testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <button id="tNext" aria-label="Next testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CERTIFICATIONS ===================== -->
+<section id="certifications" class="section-pad">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">Certifications</div>
+      <h2>Compliant, certified and accountable</h2>
+    </div>
+    <div class="cert-grid reveal reveal-stagger">
+      <div class="cert-card" style="--i:0">
+        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="8" r="6"/><path d="M9 14L6 22l6-3 6 3-3-8"/></svg></div>
+        <h3>ISO 9001:2015</h3>
+        <p>Certified quality management systems</p>
+      </div>
+      <div class="cert-card" style="--i:1">
+        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 12l2 2 4-4M21 12c0 5-3.5 9-9 10-5.5-1-9-5-9-10V6l9-4 9 4v6z"/></svg></div>
+        <h3>Govt. Registered</h3>
+        <p>Licensed contractor across all project regions</p>
+      </div>
+      <div class="cert-card" style="--i:2">
+        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>CREDAI Member</h3>
+        <p>Active industry association membership</p>
+      </div>
+      <div class="cert-card" style="--i:3">
+        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z"/></svg></div>
+        <h3>OHSAS 18001</h3>
+        <p>Occupational health & safety certified</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section-pad">
+  <div class="container" id="faq">
+    <div class="section-head center reveal">
+      <div class="eyebrow">FAQs</div>
+      <h2>Common questions, answered</h2>
+    </div>
+    <div class="reveal">
+      <div class="faq-item open">
+        <button class="faq-q">How long does a typical residential project take? <span class="plus"></span></button>
+        <div class="faq-a"><p>Timelines depend on scale, but a mid-sized villa or apartment block typically takes 14–22 months from groundbreaking to handover, including approvals.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you provide fixed-price contracts? <span class="plus"></span></button>
+        <div class="faq-a"><p>Yes. We offer itemised, fixed-price quotations with milestone-based billing so there are no surprise costs during construction.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Are your projects government approved? <span class="plus"></span></button>
+        <div class="faq-a"><p>All our projects follow documented, government-compliant approval workflows, and we handle the regulatory paperwork on your behalf.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can you handle both design and construction? <span class="plus"></span></button>
+        <div class="faq-a"><p>Yes, our design-and-build model means architecture, structural engineering and execution are managed under one accountable team.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What is included in post-handover support? <span class="plus"></span></button>
+        <div class="faq-a"><p>We provide a defect-liability period, documentation handover, and a dedicated support contact for at least 12 months after completion.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="section-head center reveal">
+      <div class="eyebrow">Get In Touch</div>
+      <h2>Let's discuss your next project</h2>
+      <p>Tell us about your project and our team will respond within one business day.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-info-card">
+        <h3>Contact Information</h3>
+        <p>Reach us directly or visit our office during working hours.</p>
+        <div class="cinfo-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><strong>Phone</strong><a href="tel:+919876543210">+91 98765 43210</a></div>
+        </div>
+        <div class="cinfo-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+          <div><strong>Email</strong><a href="mailto:info@skylinebuilders.example">info@skylinebuilders.example</a></div>
+        </div>
+        <div class="cinfo-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><strong>Office</strong><span>14th Floor, Skyline Tower, MG Road, Pune – 411001</span></div>
+        </div>
+        <div class="cinfo-row">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <div><strong>Working Hours</strong><span>Mon – Sat, 9:30 AM – 6:30 PM</span></div>
+        </div>
+        <div class="map-wrap">
+          <iframe src="https://www.google.com/maps?q=Pune%2C+Maharashtra&output=embed" loading="lazy" title="Skyline Builders office location map" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group"><label for="fname">Full Name</label><input id="fname" type="text" required placeholder="John Doe"></div>
+          <div class="form-group"><label for="fphone">Phone Number</label><input id="fphone" type="tel" required placeholder="+91 98765 43210"></div>
+        </div>
+        <div class="form-group"><label for="femail">Email Address</label><input id="femail" type="email" required placeholder="you@example.com"></div>
+        <div class="form-group">
+          <label for="ftype">Project Type</label>
+          <select id="ftype">
+            <option>Residential Construction</option>
+            <option>Commercial Construction</option>
+            <option>Infrastructure Development</option>
+            <option>Interior Design</option>
+            <option>Renovation & Redevelopment</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group"><label for="fmsg">Project Details</label><textarea id="fmsg" required placeholder="Tell us about your project, location and budget range..."></textarea></div>
+        <button type="submit" class="btn btn-gold" style="width:100%;">Send Enquiry</button>
+        <div class="form-success" id="formSuccess">Thank you — your enquiry has been received. Our team will contact you shortly.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="logo">
+        <span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#071527" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6M9 11h.01M15 11h.01M9 15h.01M15 15h.01"/></svg></span>
+        Skyline Builders
+      </div>
+      <p>Premium residential, commercial & infrastructure development. Building trust and creating landmarks since 2005.</p>
+      <div class="foot-social">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#overview">About Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Residential Construction</a></li>
+        <li><a href="#services">Commercial Construction</a></li>
+        <li><a href="#services">Infrastructure Development</a></li>
+        <li><a href="#services">Interior Design</a></li>
+        <li><a href="#services">Project Management</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="foot-contact">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>14th Floor, Skyline Tower, MG Road, Pune – 411001</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>+91 98765 43210</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg><span>info@skylinebuilders.example</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <span>© <span id="year"></span> Skyline Builders. All rights reserved.</span>
+    <span><a href="#">Privacy Policy</a> &nbsp;·&nbsp; <a href="#">Terms of Service</a></span>
+  </div>
+</footer>
+
+<!-- ===================== FLOATING BUTTONS ===================== -->
+<div class="float-btns">
+  <a class="fab fab-call" href="tel:+919876543210" aria-label="Call us">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+  <a class="fab fab-whatsapp" href="https://wa.me/919876543210?text=Hi%20Skyline%20Builders%2C%20I%27d%20like%20to%20know%20more%20about%20your%20projects." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <span class="fab-pulse"></span>
+    <svg viewBox="0 0 24 24"><path d="M17.6 6.3A8.86 8.86 0 0 0 12.04 4C7.6 4 4 7.6 4 12.04c0 1.55.43 3 1.18 4.24L4 21l4.86-1.13a8.83 8.83 0 0 0 3.18.6h.01c4.43 0 8.04-3.6 8.04-8.04 0-2.15-.84-4.17-2.49-5.85zm-5.56 12.4h-.01a7.4 7.4 0 0 1-3.77-1.03l-.27-.16-2.8.65.65-2.73-.18-.28a7.36 7.36 0 0 1-1.13-3.95c0-4.07 3.32-7.39 7.4-7.39 1.97 0 3.83.77 5.22 2.17a7.32 7.32 0 0 1 2.17 5.23c0 4.08-3.32 7.4-7.28 7.4zm4.05-5.54c-.22-.11-1.3-.64-1.5-.71-.2-.07-.35-.11-.5.11-.15.22-.57.71-.7.86-.13.14-.26.16-.48.05-.22-.11-1.27-.47-2.41-1.49-.89-.79-1.49-1.77-1.66-2.07-.18-.3-.02-.46.13-.61.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.2.05-.36-.03-.51-.08-.15-.61-1.47-.84-2.01-.22-.53-.45-.46-.62-.46-.16-.01-.34-.01-.53-.01-.18 0-.48.07-.74.34-.26.27-1 1-1 2.4 0 1.41 1.02 2.78 1.16 2.97.14.19 1.96 3 4.76 4.08 2.8 1.09 2.8.73 3.31.68.5-.05 1.61-.65 1.84-1.29.23-.63.23-1.17.16-1.29-.07-.12-.25-.19-.48-.3z"/></svg>
+  </a>
+</div>
+
+<script>
+// ---------- NAVBAR ----------
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 40);
+}, {passive:true});
+
+// ---------- MOBILE MENU ----------
+const burgerBtn = document.getElementById('burgerBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeMenu = document.getElementById('closeMenu');
+burgerBtn.addEventListener('click', () => mobileMenu.classList.add('open'));
+closeMenu.addEventListener('click', () => mobileMenu.classList.remove('open'));
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+// ---------- SCROLL REVEAL ----------
+const revealEls = document.querySelectorAll('.reveal');
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, {threshold:0.15});
+revealEls.forEach(el => revealObserver.observe(el));
+
+// ---------- COUNTER ANIMATION ----------
+const counters = document.querySelectorAll('[data-count]');
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      const target = parseInt(el.dataset.count, 10);
+      const suffix = el.dataset.suffix || '';
+      const duration = 1600;
+      const start = performance.now();
+      function tick(now){
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.floor(eased * target) + (progress >= 1 ? suffix : '');
+        if (progress < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+      counterObserver.unobserve(el);
+    }
+  });
+}, {threshold:0.4});
+counters.forEach(el => counterObserver.observe(el));
+
+// ---------- GALLERY FILTER ----------
+const filterBtns = document.querySelectorAll('.gfilter');
+const galleryItems = document.querySelectorAll('.gallery-item');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    galleryItems.forEach(item => {
+      item.style.display = (filter === 'all' || item.dataset.cat === filter) ? '' : 'none';
+    });
+  });
+});
+
+// ---------- LIGHTBOX ----------
+const lightbox = document.getElementById('lightbox');
+const lbImg = document.getElementById('lbImg');
+const galleryImgs = Array.from(document.querySelectorAll('.gallery-item img'));
+let lbIndex = 0;
+function openLightbox(i){
+  lbIndex = i;
+  lbImg.src = galleryImgs[i].src;
+  lbImg.alt = galleryImgs[i].alt;
+  lightbox.classList.add('open');
+}
+galleryImgs.forEach((img, i) => img.parentElement.addEventListener('click', () => openLightbox(i)));
+document.getElementById('lbClose').addEventListener('click', () => lightbox.classList.remove('open'));
+document.getElementById('lbNext').addEventListener('click', () => openLightbox((lbIndex + 1) % galleryImgs.length));
+document.getElementById('lbPrev').addEventListener('click', () => openLightbox((lbIndex - 1 + galleryImgs.length) % galleryImgs.length));
+lightbox.addEventListener('click', (e) => { if (e.target === lightbox) lightbox.classList.remove('open'); });
+document.addEventListener('keydown', (e) => {
+  if (!lightbox.classList.contains('open')) return;
+  if (e.key === 'Escape') lightbox.classList.remove('open');
+  if (e.key === 'ArrowRight') openLightbox((lbIndex + 1) % galleryImgs.length);
+  if (e.key === 'ArrowLeft') openLightbox((lbIndex - 1 + galleryImgs.length) % galleryImgs.length);
+});
+
+// ---------- TESTIMONIAL CAROUSEL ----------
+const tSlides = document.getElementById('tSlides');
+const slideCount = tSlides.children.length;
+let tIndex = 0;
+function updateCarousel(){ tSlides.style.transform = `translateX(-${tIndex * 100}%)`; }
+document.getElementById('tNext').addEventListener('click', () => { tIndex = (tIndex + 1) % slideCount; updateCarousel(); });
+document.getElementById('tPrev').addEventListener('click', () => { tIndex = (tIndex - 1 + slideCount) % slideCount; updateCarousel(); });
+let tAuto = setInterval(() => { tIndex = (tIndex + 1) % slideCount; updateCarousel(); }, 6000);
+document.querySelector('.t-carousel').addEventListener('mouseenter', () => clearInterval(tAuto));
+
+// ---------- FAQ ACCORDION ----------
+document.querySelectorAll('.faq-item').forEach(item => {
+  const q = item.querySelector('.faq-q');
+  const a = item.querySelector('.faq-a');
+  if (item.classList.contains('open')) a.style.maxHeight = a.scrollHeight + 'px';
+  q.addEventListener('click', () => {
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => { i.classList.remove('open'); i.querySelector('.faq-a').style.maxHeight = 0; });
+    if (!isOpen){ item.classList.add('open'); a.style.maxHeight = a.scrollHeight + 'px'; }
+  });
+});
+
+// ---------- CONTACT FORM ----------
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  document.getElementById('formSuccess').classList.add('show');
+  this.reset();
+});
+
+// ---------- FOOTER YEAR ----------
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
