@@ -1331,13 +1331,14 @@ form.addEventListener("submit", async (e) => {
 
     try {
 
-        await fetch("https://script.google.com/macros/s/AKfycbzm0zzZ6j7zpwzfmdJzx_LhtFVx7JNwvIECt5yjDIYCmIuDmApLZTrFiId9X7hzRzt8/exec", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        });
+        await fetch("https://script.google.com/macros/s/AKfycbzNoaKVEPyMPmGtKGCEV-mpIHnXzsAOQLmlGfWbTxnfQ8uY4-YoU6UK10xA6Vp1iePl/exec", {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify(data)
+});
 
         successMessage.style.display = "block";
 
