@@ -1313,6 +1313,45 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
   this.reset();
 });
 
+  //--------------- Spreadsheet Integration ------------
+  
+  const form = document.getElementById("contactForm");
+const successMessage = document.getElementById("formSuccess");
+
+form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const data = {
+        name: document.getElementById("fname").value,
+        phone: document.getElementById("fphone").value,
+        email: document.getElementById("femail").value,
+        projectType: document.getElementById("ftype").value,
+        projectDetails: document.getElementById("fmsg").value
+    };
+
+    try {
+
+        await fetch("https://script.google.com/macros/s/AKfycbzm0zzZ6j7zpwzfmdJzx_LhtFVx7JNwvIECt5yjDIYCmIuDmApLZTrFiId9X7hzRzt8/exec", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        successMessage.style.display = "block";
+
+        form.reset();
+
+    } catch (error) {
+
+        alert("Failed to submit enquiry.");
+
+        console.error(error);
+
+    }
+});
+
 // ---------- FOOTER YEAR ----------
 document.getElementById('year').textContent = new Date().getFullYear();
 </script>
