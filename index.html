@@ -554,49 +554,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 </style>
 </head>
 
-   <script>
-const form = document.getElementById("contactForm");
-
-form.addEventListener("submit", async (e) => {
-
-  e.preventDefault();
-
-  const data = {
-    name: document.getElementById("fname").value,
-    phone: document.getElementById("fphone").value,
-    email: document.getElementById("femail").value,
-    projectType: document.getElementById("ftype").value,
-    projectDetails: document.getElementById("fmsg").value
-  };
-
-  try {
-
-    await fetch(
-      "https://script.google.com/macros/s/AKfycbwrmgbeX-cGX3GXenaGts6TE7ei9iqWhkYgLwJX77Kny6DlxoGPH7XU_z-m80rRcocq/exec",
-      {
-        method: "POST",
-        mode: "no-cors",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data)
-      }
-    );
-
-    alert("Enquiry Submitted Successfully!");
-
-    form.reset();
-
-  } catch(err) {
-
-    console.log(err);
-
-    alert("Submission failed");
-
-  }
-
-});
-</script>
+   
 <body>
 
 <a href="#main" class="skip-link">Skip to content</a>
